@@ -8,6 +8,6 @@
    git clone https://github.com/sansroot/Apple-keyboard-layout
    cd Apple-keyboard-layout
    sudo chmod -R 777 *
-   ./installer.sh
+   bash ./installer.sh
    ```
 2. Done!
