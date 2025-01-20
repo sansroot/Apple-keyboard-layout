@@ -1,0 +1,10 @@
+[Unit]
+Description=Apple Layout Switcher
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash /home/ks/Documents/apple.sh
+
+[Install]
+WantedBy=multi-user.target
