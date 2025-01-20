@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "type your user"
 read nome
 sed -i 's/YourUser/$nome/' apple.service
