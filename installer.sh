@@ -3,3 +3,5 @@ sudo cp -r apple.sh -t ~/Documents/
 sudo systemctl daemon-reload
 sudo systemctl enable apple.service
 sudo systemctl start apple.service
+cd ..
+rm -rf Apple-keyboard-layout
